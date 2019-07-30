@@ -1,0 +1,28 @@
+{
+  "name": "cpen",
+  "version": "1.0.0",
+  "description": "I often start my small UI POCs at codepen. Why? It is easy to start, zero setup required, easy to share. But at some point I want to download that POC to my computer and proceed using my favorite IDE with plugins, comfortable theme, etc.",
+  "main": "index.js",
+  "bin": {
+    "cpen": "./cpen.js"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --no-notify cpen.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "html-entities": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  }
+}

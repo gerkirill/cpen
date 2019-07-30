@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "system",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es2017"],
+    "outFile": "./bin/cpen.js",
+    "alwaysStrict": false,
+    "noImplicitUseStrict": true
+  },
+  "files": [
+    "cpen.ts"
+  ]
+}
